@@ -1,0 +1,4 @@
+0 Glioma Tumor
+1 The model predicts that there is no tumor
+2 Meningioma Tumor
+3 Pituitary Tumor

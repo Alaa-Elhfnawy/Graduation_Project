@@ -108,7 +108,7 @@ class AboutTumor extends StatelessWidget {
                 const SizedBox(height: 4,),
                 Row(
                   children: [
-                    Text(
+                    const Text(
                       '- Meningioma brain tumor.',
                       style: TextStyle(
                         fontSize: 20,

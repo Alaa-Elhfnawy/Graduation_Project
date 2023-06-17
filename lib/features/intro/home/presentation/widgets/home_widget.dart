@@ -1,8 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tumor_detection/core/widgets/my_asset_image.dart';
-
 import '../../cubit/home_cubit.dart';
 
 class HomeWidget extends StatelessWidget {
@@ -30,7 +28,9 @@ class HomeWidget extends StatelessWidget {
               BottomNavigationBarItem(
                   icon: Icon(Icons.home_outlined), label: 'Home'),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.account_box_outlined), label: 'About'),
+                  icon: Icon(Icons.account_box_outlined), label: 'About Tumor'),
+              BottomNavigationBarItem(
+                  icon: Icon(Icons.account_box_outlined), label: 'About Us'),
             ],
             backgroundColor: Colors.teal.shade300,
             selectedItemColor: Colors.white,

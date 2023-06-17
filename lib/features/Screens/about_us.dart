@@ -16,7 +16,7 @@ class AboutPage extends StatelessWidget {
             aboutUs(),
             const SizedBox(height: 20,),
             const Text(
-              'Outlast team',
+              '-Outlast team',
               style: TextStyle(
                   fontSize: 25,
                   color: Colors.teal,
@@ -40,7 +40,7 @@ Widget aboutUs(){
     children: [
       //who we are
       Text(
-        'Who We Are?',
+        '-Who We Are?',
         style: TextStyle(
             fontSize: 25,
             color: Colors.teal,
@@ -59,7 +59,7 @@ Widget aboutUs(){
       //Our Mission
       SizedBox(height: 15,),
       Text(
-        'Our Mission',
+        '-Our Mission',
         style: TextStyle(
             fontSize: 25,
             color: Colors.teal,
@@ -78,7 +78,7 @@ Widget aboutUs(){
       //Our Vision
       SizedBox(height: 15,),
       Text(
-        'Our Vision',
+        '-Our Vision',
         style: TextStyle(
             fontSize: 25,
             color: Colors.teal,

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.app.tumor_detection">
+    package="com.example.tumor_detection">
    <application
         android:label="tumor_detection"
         android:name="${applicationName}"

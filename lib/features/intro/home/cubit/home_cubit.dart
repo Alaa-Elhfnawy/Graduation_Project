@@ -3,6 +3,7 @@ import 'package:bloc/bloc.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:meta/meta.dart';
+import 'package:tumor_detection/features/Screens/about_tumor.dart';
 import 'package:tumor_detection/features/Screens/about_us.dart';
 import 'package:tumor_detection/features/Screens/test_model.dart';
 
@@ -13,10 +14,12 @@ class HomeCubit extends Cubit<HomeState> {
   static HomeCubit get(context) => BlocProvider.of(context);
   List<String>title=[
     'Home',
-    'About',
+    'About Tumor',
+    'About Us',
   ];
   List<Widget>appScreen=[
     const TestModel(),
+    const AboutTumor(),
     const AboutPage()
   ];
   int index=0;
